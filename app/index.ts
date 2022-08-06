@@ -2,14 +2,21 @@ import clock from "clock";
 import document from "document";
 import { preferences } from "user-settings";
 
-// Update the clock every minute
+const padSpace = (value: number): string => {
+  if (value < 10) {
+    return "0" + value.toString();
+  }
+  return value.toString();
+};
+
+const hoursElement = document.getElementById("hours");
+const minutesElement = document.getElementById("minutes");
+const secondsElement = document.getElementById("seconds");
+
 clock.granularity = "seconds";
-
-const myLabel = document.getElementById("clock-label");
-
-clock.granularity = "seconds";
-
 clock.addEventListener("tick", (evt) => {
   const today = evt.date;
-  myLabel.text = today.getSeconds().toString();
+  hoursElement.text = padSpace(today.getHours());
+  minutesElement.text = padSpace(today.getMinutes());
+  secondsElement.text = padSpace(today.getSeconds());
 });
