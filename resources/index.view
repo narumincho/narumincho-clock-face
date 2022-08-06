@@ -14,7 +14,7 @@
   <text
     x="50%-24"
     y="50%-40"
-    fill="#ccccccc"
+    fill="#cccccc"
     font-size="20"
     font-family="System-Regular"
     text-anchor="middle"
@@ -37,7 +37,7 @@
   <text
     x="50%+24"
     y="50%-40"
-    fill="#ccccccc"
+    fill="#cccccc"
     font-size="20"
     font-family="System-Regular"
     text-anchor="middle"
@@ -57,60 +57,63 @@
   >
     da
   </text>
-  <text
-    id="hours"
-    x="50%-80"
-    y="50%+24"
-    fill="white"
-    font-size="64"
-    font-family="System-Regular"
-    text-anchor="middle"
-    text-length="2"
-  >
-    ho
-  </text>
-  <text
-    x="50%-40"
-    y="50%+8"
-    fill="#ccccccc"
-    font-size="32"
-    font-family="System-Regular"
-    text-anchor="middle"
-  >
-    :
-  </text>
-  <text
-    id="minutes"
-    x="50%"
-    y="50%+24"
-    fill="white"
-    font-size="64"
-    font-family="System-Regular"
-    text-anchor="middle"
-    text-length="2"
-  >
-    mi
-  </text>
-  <text
-    x="50%+40"
-    y="50%+16"
-    fill="#ccccccc"
-    font-size="32"
-    font-family="System-Regular"
-    text-anchor="middle"
-  >
-    :
-  </text>
-  <text
-    id="seconds"
-    x="50%+72"
-    y="50%+24"
-    fill="white"
-    font-size="48"
-    font-family="System-Regular"
-    text-anchor="middle"
-    text-length="2"
-  >
-    se
-  </text>
+  <g transform="translate(0, 24)">
+    <!-- time -->
+    <text
+      id="hours"
+      x="50%-88"
+      y="50%+32"
+      fill="white"
+      font-size="72"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="2"
+    >
+      ho
+    </text>
+    <text
+      x="50%-44"
+      y="50%+16"
+      fill="#cccccc"
+      font-size="32"
+      font-family="System-Regular"
+      text-anchor="middle"
+    >
+      :
+    </text>
+    <text
+      id="minutes"
+      x="50%"
+      y="50%+32"
+      fill="white"
+      font-size="72"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="2"
+    >
+      mi
+    </text>
+    <text
+      x="50%+44"
+      y="50%+24"
+      fill="#cccccc"
+      font-size="32"
+      font-family="System-Regular"
+      text-anchor="middle"
+    >
+      :
+    </text>
+    <text
+      id="seconds"
+      x="50%+76"
+      y="50%+32"
+      fill="white"
+      font-size="48"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="2"
+    >
+      se
+    </text>
+  </g>
 </svg>
