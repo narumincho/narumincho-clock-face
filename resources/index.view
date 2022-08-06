@@ -1,5 +1,16 @@
 <svg viewport-fill="black">
   <text
+    x="50%"
+    y="50%-30"
+    fill="white"
+    font-size="32"
+    font-family="System-Regular"
+    text-anchor="middle"
+    text-length="22"
+  >
+    narumincho custom view
+  </text>
+  <text
     id="hours"
     x="50%-40"
     y="50%"
