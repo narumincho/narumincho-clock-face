@@ -1,21 +1,68 @@
 <svg viewport-fill="black">
   <text
+    id="year"
+    x="50%-56"
+    y="50%-40"
+    fill="white"
+    font-size="24"
+    font-family="System-Regular"
+    text-anchor="middle"
+    text-length="4"
+  >
+    year
+  </text>
+  <text
+    x="50%-24"
+    y="50%-40"
+    fill="#ccccccc"
+    font-size="20"
+    font-family="System-Regular"
+    text-anchor="middle"
+    text-length="1"
+  >
+    -
+  </text>
+  <text
+    id="month"
     x="50%"
-    y="50%-30"
+    y="50%-40"
     fill="white"
     font-size="32"
     font-family="System-Regular"
     text-anchor="middle"
-    text-length="22"
+    text-length="4"
   >
-    narumincho custom view
+    mo
+  </text>
+  <text
+    x="50%+24"
+    y="50%-40"
+    fill="#ccccccc"
+    font-size="20"
+    font-family="System-Regular"
+    text-anchor="middle"
+    text-length="1"
+  >
+    -
+  </text>
+  <text
+    id="day"
+    x="50%+48"
+    y="50%-40"
+    fill="white"
+    font-size="32"
+    font-family="System-Regular"
+    text-anchor="middle"
+    text-length="4"
+  >
+    da
   </text>
   <text
     id="hours"
-    x="50%-40"
-    y="50%"
+    x="50%-80"
+    y="50%+24"
     fill="white"
-    font-size="32"
+    font-size="64"
     font-family="System-Regular"
     text-anchor="middle"
     text-length="2"
@@ -23,9 +70,9 @@
     ho
   </text>
   <text
-    x="50%-20"
-    y="50%"
-    fill="white"
+    x="50%-40"
+    y="50%+8"
+    fill="#ccccccc"
     font-size="32"
     font-family="System-Regular"
     text-anchor="middle"
@@ -35,9 +82,9 @@
   <text
     id="minutes"
     x="50%"
-    y="50%"
+    y="50%+24"
     fill="white"
-    font-size="32"
+    font-size="64"
     font-family="System-Regular"
     text-anchor="middle"
     text-length="2"
@@ -45,9 +92,9 @@
     mi
   </text>
   <text
-    x="50%+20"
-    y="50%"
-    fill="white"
+    x="50%+40"
+    y="50%+16"
+    fill="#ccccccc"
     font-size="32"
     font-family="System-Regular"
     text-anchor="middle"
@@ -56,10 +103,10 @@
   </text>
   <text
     id="seconds"
-    x="50%+40"
-    y="50%"
+    x="50%+72"
+    y="50%+24"
     fill="white"
-    font-size="32"
+    font-size="48"
     font-family="System-Regular"
     text-anchor="middle"
     text-length="2"
