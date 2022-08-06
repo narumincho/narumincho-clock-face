@@ -7,7 +7,7 @@ registerSettingsPage(({ settings }) => (
         </Text>
       }
     >
-      <Text>Hello world!</Text>
+      <Text>設定項目はまだない</Text>
     </Section>
   </Page>
 ));
