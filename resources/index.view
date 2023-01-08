@@ -1,10 +1,22 @@
 <svg viewport-fill="black">
   <text
+    id="dayOfWeek"
+    x="50%-64"
+    y="50%-80"
+    fill="white"
+    font-size="28"
+    font-family="System-Regular"
+    text-anchor="middle"
+    text-length="9"
+  >
+    dayOfWeek
+  </text>
+  <text
     id="year"
-    x="50%-56"
+    x="50%-64"
     y="50%-40"
     fill="white"
-    font-size="24"
+    font-size="28"
     font-family="System-Regular"
     text-anchor="middle"
     text-length="4"
@@ -61,10 +73,10 @@
     <!-- time -->
     <text
       id="hours"
-      x="50%-88"
+      x="50%-90"
       y="50%+32"
       fill="white"
-      font-size="72"
+      font-size="78"
       font-family="System-Regular"
       text-anchor="middle"
       text-length="2"
@@ -86,7 +98,7 @@
       x="50%"
       y="50%+32"
       fill="white"
-      font-size="72"
+      font-size="78"
       font-family="System-Regular"
       text-anchor="middle"
       text-length="2"
