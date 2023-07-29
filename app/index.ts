@@ -1,6 +1,6 @@
 import clock from "clock";
 import document from "document";
-import { preferences } from "user-settings";
+import { battery } from "power";
 
 const format2Digit = (value: number): string => {
   if (value < 10) {
@@ -35,6 +35,7 @@ const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");
 const secondsElement = document.getElementById("seconds");
 const dayOfWeekElement = document.getElementById("dayOfWeek");
+const batteryElement = document.getElementById("battery");
 
 clock.granularity = "seconds";
 clock.addEventListener("tick", (evt) => {
@@ -46,4 +47,5 @@ clock.addEventListener("tick", (evt) => {
   minutesElement.text = format2Digit(today.getMinutes());
   secondsElement.text = format2Digit(today.getSeconds());
   dayOfWeekElement.text = dayOfWeekToText(today.getDay());
+  batteryElement.text = battery.chargeLevel.toString();
 });

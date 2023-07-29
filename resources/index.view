@@ -1,7 +1,7 @@
 <svg viewport-fill="black">
   <text
     id="dayOfWeek"
-    x="50%-64"
+    x="50%"
     y="50%-80"
     fill="white"
     font-size="28"
@@ -126,6 +126,30 @@
       text-length="2"
     >
       se
+    </text>
+  </g>
+   <g transform="translate(0, 128)">
+    <!-- battery -->
+    <text
+      id="battery"
+      x="50%"
+      fill="white"
+      font-size="32"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="3"
+    >
+      ??
+    </text>
+    <text
+      x="50%+28"
+      fill="white"
+      font-size="16"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="1"
+    >
+      %
     </text>
   </g>
 </svg>
